@@ -43,9 +43,9 @@ function App() {
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         
           <div style={{display:'flex',gap:'10px',marginBottom:'10px'}}>
-        <input 
-        placeholder='Enter city name
-        'style={{height:'40px',width:'200px',borderRadius:'7px'}} value={city}
+        <input type="text"
+        placeholder='Enter city name'
+        style={{height:'40px',width:'200px',borderRadius:'7px'}} value={city}
         onChange={(e)=>setCity(e.target.value)}/>
 
         <button onClick={()=>setSearchCity(city)} style={{background:'rgba(76,175,80,255)',height:'45px',
